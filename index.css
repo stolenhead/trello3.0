@@ -1,0 +1,213 @@
+.back{
+	white-space: nowrap;
+	background-image: url("http://il3.picdn.net/shutterstock/videos/9568208/thumb/1.jpg");
+}
+.barra{
+	background-color: transparent;
+}
+.letra{
+	color: white;
+}
+.caja1{
+	margin-top: 5%;
+}
+.none{
+	display: none;
+}
+.up{
+	
+	background-color: white;
+	text-decoration: none;
+	color: black;
+}
+inline-block {
+	display: inline-block;
+	}
+.float-left{
+	float: left;
+}
+.form{
+	 margin-left: 3%;
+    margin-right: 3%;
+}
+.newup{
+	padding: 2% 21% 2% 1%;
+	background-color: white;
+	border-radius: 6px;
+	text-decoration: none;
+	color: black;
+	margin-top: 1%;
+}
+.block{
+	display: block;
+}
+.newup2{
+	
+	padding: 2% 21% 2% 1%;
+	background-color: #5F282B;
+	border-radius: 6px;
+	text-decoration: none;
+	color: white;
+	margin-top: 1%;
+    width: 200px;
+    margin-left: 1%;
+}
+.area{
+	display: block;
+	background-color: #5F282B;
+	border-radius: 6px;
+	text-decoration: none;
+	color: black;
+	margin-top: 1%;
+}
+.nope{
+	text-decoration: none;
+}
+.linkeable{
+	background-color: white;
+	border-radius: 6px;
+    box-sizing: border-box;
+    padding: 10px 90px 10px 20px ;
+    border-radius: 6px;
+    margin-top: 7%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.formu{
+	background-color: #5F282B;
+	padding: 4%;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+.formu2{
+	background-color: #5F282B;
+	padding: 4%;
+	box-sizing: border-box;
+	border-radius: 6px;
+	height: 100px;
+}
+.boton{
+	padding: 1% 5%;
+	margin-top: 2%;
+	background-color: #8D5E6E;
+	border: 1px solid #8D5E6E;
+}
+.boton2{
+	padding: 1% 5%;
+	background-color: #8D5E6E;
+	border: 1px solid #8D5E6E;
+	float: left;
+}
+.rellenar{
+	border-radius: 6px;
+}
+.rellenar2{
+	border-radius: 6px;
+	width: 90%;
+}
+.papa{
+	display: inline-block;
+	border-radius: 6px;
+	 margin-left: 1%;
+	 margin-top:2%;
+}
+.tarjetas{
+	background-color: white;
+	border-radius: 6px;
+    box-sizing: border-box;
+    padding: 10px 90px 10px 20px ;
+    border-radius: 6px;
+    margin-top: 3%;
+    margin-left: 3%;
+	display: inline-block;
+	vertical-align: top;
+}
+.none{
+	display: none;
+}
+.azul{
+	background-color: gray;
+}
+.opacity{
+	background-color:yellow;
+	opacity: 0.4;
+	 transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+}
+.tableros{
+	display: inline-block;
+	position: relative;
+	margin-right: 9em;
+	background-color: transparent !important;
+	border-color:  #5F282B !important;
+}
+.buscador ,.buscar ,.trello-logo ,.perfil,.ico ,.globe,.mas{
+	display: inline-block;
+	background-color: transparent !important;
+	border-color:#5F282B !important;
+}
+.izquierda{
+	display: inline-block;
+	position: relative;
+	margin-left: 30%;
+}
+.buscador{
+	position: relative;
+	margin-right: 10%;
+}
+header{
+	text-align: center;
+}
+.modal-dialogue{
+	height: 500px;
+}
+.modal-content{
+	height: 550px;
+}
+.description{
+	padding-top: 4%
+	padding-bottom:3%;
+}
+.textarea{
+	height: 60px;
+	width: 80%;
+}
+.activity{
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+.botonModal{
+	padding-top: 2px;
+	width: 100%;
+	margin-bottom: 7%;
+	display: block !important;
+}
+.formModal{
+	margin-top: 16%;
+}
+.size{
+	font-size: 24px;
+	padding: 0px !important;
+}
+/*modal dialog*/
+.check-dialog{
+	width: 50%;
+	margin-left: 48%;
+	margin-top: 43%;
+}
+.checkContent{
+	height: 200px;
+}
+.formCheck{
+	margin-left: 5%;
+}
+.none{
+	display: none;
+}
+.areaChecks{
+	width: 100%;
+}
+.left{
+	float: left;
+}

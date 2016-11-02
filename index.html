@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>trello</title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="fonts/glyphicons-halflings-regular.svg">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body class="back">
+  <header class="scroll-bar">
+    <button class="tableros btn-success btn "><span class="glyphicon glyphicon-edit"></span>Tableros</button>
+    <form class="buscador">
+        <input type="text" name="buscador" >
+    </form>
+    <img src="imagen/header-logo.png"  class="trello-logo">
+    <div class="izquierda">
+      <button class="mas btn-success btn"><span class="glyphicon glyphicon-plus"></span></button>
+      <div class="perfil">
+      <button class="perfil btn-success btn">Andrea Cabrera</button>
+      </div>
+      <button class="btn-success btn ico"><span class="glyphicon glyphicon-bel"></span></button>
+      <button class="btn-success btn globe"><span class="glyphicon glyphicon-cog"></span></button>
+    </div>
+  </header>
+  <section>
+    <div class="cont">
+      <div class="caja1">
+    	  <h3 class="letra">Personal Boards</h3>
+      </div>
+  </section>
+  <section id="contenedor">
+      <div id="papa" class="papa">
+        <div id="papa2">
+          <div class="linkeable" id="linky"><a href="#" id="clicky" class=" up" >
+           Add a list ...</a>
+          </div>
+        </div> 
+        <form class="none navbar-form  form-group formu" id="formu">
+    	    <input type="text" class="rellenar" name="input" id="input" placeholder="Add a list ..."><br>
+    	    <button type="button" class="btn btn-warning boton" id="boton">Save</button>
+        </form>
+      </div>
+  </section>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="col-lg-12" id="papaModal">
+          <span class="glyphicon glyphicon-edit size activity col-lg-1"></span>
+          <h4 class="modal-title col-lg-11 activity titleModalg" id="myModalLabel "></h4>
+        </div>
+      </div>
+      <div class="modal-body col-lg-9">
+        
+        <div class="description activity">
+          <span class="glyphicon glyphicon-align-left"></span><a> Edit description</a>
+        </div>
+        <div id="checkArea"></div>
+        <div class="lg-col-12">
+          <span class="glyphicon glyphicon-comment activity size col-lg-1"></span><h4 class="col-lg-11">Add a Comment</h4>
+        </div>
+        <form class="formModal">
+          <textarea class="textarea" placeholder="Write a comment"></textarea><br>
+          <button type="buttom" class="btn btn-default activity" >Save</button>
+        </form >
+        <div class="lg-col-12">
+          <span class="glyphicon glyphicon-th size activity col-lg-1"></span>
+          <h4 class="col-lg-11">Activity</h4>
+        </div> 
+    </div>
+    <div class="modal-body col-lg-3">
+      <h4>Add</h4>
+      <button type="button" class="btn btn-default botonModal">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Members
+      </button>
+      <button type="button" class="btn btn-default botonModal">
+        <span class="glyphicon glyphicon-tag" aria-hidden="true"></span> Labels
+      </button>
+      <button type="button" class="btn btn-default botonModal"  id="checkList">
+        <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Check-List
+      </button>
+      <button type="button" class="btn btn-default botonModal">
+        <span class="glyphicon glyphicon-time" aria-hidden="true"></span> Due Date
+      </button>
+      <h4>Actions</h4>
+      <button type="button" class="btn btn-default botonModal">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> Move
+      </button>
+      <button type="button" class="btn btn-default botonModal">
+        <span class="glyphicon glyphicon-object-align-top" aria-hidden="true"></span> Copy
+      </button>
+      <button type="button" class="btn btn-default botonModal">
+        <span class="glyphicon glyphicon--eye-open" aria-hidden="true"></span> Suscribe
+      </button>
+      <button type="button" class="btn btn-default botonModal">
+        <span class="glyphicon glyphicon-save" aria-hidden="true"></span> Archive
+      </button>
+  </div>
+  </div>
+  <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" >
+  <div class="modal-dialog modal-sm check-dialog" id="checkPeque"role="document">
+    <div class="modal-content checkContent">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title  activity" id="myModalLabel">Modal title</h4>
+      </div> 
+      <div>
+        <form class="formCheck">
+          <label class="activity">Title</label><br>
+          <input type="text" name="check" placeholder="Checklist" id="contenido"><br>
+          <button class="btn btn-default activity" type="button" id="botonCheck">Save</button>
+        </form>
+      </div> 
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+<script type="text/javascript" src="js/naboo.js"></script>
+<script type="text/javascript" src ="index.js"></script>
+<script type="text/javascript" src ="modal.js"></script>
+</body>
+</html>
